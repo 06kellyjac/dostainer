@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env sh
 
 bytes=$(df --output=avail / | tail -n 1)
 
